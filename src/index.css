@@ -1,0 +1,13 @@
+@import url("https://fonts.googleapis.com/css2?family=Mali:wght@400;600;700&family=Sarabun:wght@400;500;600&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: "Sarabun", sans-serif;
+}
+.font-display {
+  font-family: "Mali", sans-serif;
+  font-weight: 700;
+}
