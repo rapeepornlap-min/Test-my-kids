@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import EntryScreen from "./EntryScreen";
-import Dashboard from "./Dashboard";
+import ExamApp from "./ExamApp";
 import { loadProfile, saveProfile, clearProfile } from "./localProfile";
 
 export default function App() {
@@ -33,5 +33,5 @@ export default function App() {
     return <EntryScreen onDone={handleEntry} />;
   }
 
-  return <Dashboard profile={profile} onProfileUpdate={handleUpdate} onReset={handleReset} />;
+  return <ExamApp profile={profile} onProfileUpdate={handleUpdate} onReset={handleReset} />;
 }

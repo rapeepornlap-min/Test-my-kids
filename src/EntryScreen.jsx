@@ -22,7 +22,7 @@ export default function EntryScreen({ onDone }) {
       setError("กรุณากรอกชื่อและเลือกตัวละครก่อนนะคะ");
       return;
     }
-    onDone({ nickname: nickname.trim(), gender, xp: 0 });
+    onDone({ nickname: nickname.trim(), gender, xp: 0, attempts: [], mastery: {} });
   };
 
   return (
