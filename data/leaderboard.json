@@ -6,15 +6,15 @@
     "level": 5
   },
   {
+    "nickname": "จีโน่",
+    "xp": 410,
+    "gender": "boy",
+    "level": 3
+  },
+  {
     "nickname": "Avy",
     "xp": 360,
     "gender": "girl",
-    "level": 2
-  },
-  {
-    "nickname": "จีโน่",
-    "xp": 330,
-    "gender": "boy",
     "level": 2
   }
 ]
