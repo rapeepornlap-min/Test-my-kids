@@ -9,6 +9,7 @@ export const SUBJECTS = [
   { id: "science", program: "tp", name: "วิทยาศาสตร์", color: "#6BCB77", color2: "#93DC9C", dark: "#4CAE58", icon: "📗", quizSeconds: 20 },
   { id: "social", program: "tp", name: "สังคมศึกษา ศาสนา", color: "#FFB84C", color2: "#FFCB7A", dark: "#F09B2E", icon: "📙", quizSeconds: 20 },
   { id: "history", program: "tp", name: "ประวัติศาสตร์", color: "#B18CFE", color2: "#C7ABFF", dark: "#9370E8", icon: "📜", quizSeconds: 20 },
+  { id: "chinese", program: "tp", name: "ภาษาจีน", color: "#E85D5D", color2: "#F28C8C", dark: "#C43D3D", icon: "🀄", quizSeconds: 20 },
   { id: "ep_language", program: "ep", name: "Language", color: "#FF8FA3", color2: "#FFB3C1", dark: "#E06C84", icon: "🔤", quizSeconds: 20 },
   { id: "ep_math", program: "ep", name: "Mathematics", color: "#5AC8FA", color2: "#8AD9FF", dark: "#2E9FD6", icon: "🔢", quizSeconds: 120 },
   { id: "ep_social", program: "ep", name: "Social", color: "#FFC24C", color2: "#FFD37A", dark: "#EBA321", icon: "🏘️", quizSeconds: 20 },
