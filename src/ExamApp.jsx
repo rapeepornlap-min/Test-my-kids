@@ -292,7 +292,7 @@ export default function ExamApp({ profile, onProfileUpdate, onReset }) {
       style={{
         minHeight: "100vh",
         background: "linear-gradient(180deg, #FFF6E5 0%, #EAF6FF 40%, #D6EEFF 100%)",
-        fontFamily: "'Mali', sans-serif",
+        fontFamily: "'Mali', 'Noto Sans SC', sans-serif",
         position: "relative",
         overflow: "hidden",
       }}
@@ -1017,11 +1017,11 @@ export default function ExamApp({ profile, onProfileUpdate, onReset }) {
                 <div className="rounded-2xl bg-white shadow-md overflow-hidden">
                   {leaderboard.slice(0, 20).map((p, i) => (
                     <div
-                      key={p.name + i}
+                      key={p.nickname + i}
                       className="flex items-center gap-3 px-4 py-3"
                       style={{
                         borderTop: i > 0 ? "1px solid #F0E9DC" : "none",
-                        backgroundColor: p.name === nickname ? "#FFF6E0" : "transparent",
+                        backgroundColor: p.nickname === nickname ? "#FFF6E0" : "transparent",
                       }}
                     >
                       <div className="font-display w-6 text-center" style={{ color: "#9C8F7C" }}>
@@ -1042,7 +1042,7 @@ export default function ExamApp({ profile, onProfileUpdate, onReset }) {
                         </div>
                       </div>
                       <div className="flex-1 font-body text-sm" style={{ color: "#4A3F35" }}>
-                        {p.name} {p.name === nickname && "(คุณ)"}
+                        {p.nickname} {p.nickname === nickname && "(คุณ)"}
                       </div>
                       <div className="font-display text-sm" style={{ color: "#4A3F35" }}>
                         {p.xp} XP
